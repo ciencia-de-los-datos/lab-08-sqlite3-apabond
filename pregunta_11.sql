@@ -38,3 +38,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT COUNT(*)
+FROM tbl1
+WHERE c14 >= '2018-01-01' AND c14 <= '2018-12-31';
